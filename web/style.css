@@ -144,12 +144,13 @@ transition: .6s;
 }
 
 .header ul.menu li:hover,
-.header ul.menu li.hover {
+.header ul.menu li.hover,li.current-menu-item {
 border-bottom: #04be83 5px solid;
 }
 
 .header ul.menu li:hover > a,
-.header ul.menu li.hover > a {
+.header ul.menu li.hover > a,
+current-menu-item > a{
 color: #04be83;
 }
 

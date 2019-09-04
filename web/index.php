@@ -80,7 +80,7 @@
                     <div class="swiper-container newsSwiper">
                         <div class="swiper-wrapper"></div>
                             <div class="swiper-slide">
-                                <a href="#"><img src="<?php echo home_url() ?>/wp-content/themes/xzdapeng/images/pzwh.png" ></a>
+                                <a href="#"><img src="<?php echo home_url() ?>/wp-content/themes/xzdapeng/images/zixun.jpg" ></a>
                             </div>
                         <div class="swiper-pagination"></div>
                     </div>
@@ -201,7 +201,7 @@
                     <div class="company">
                         <div class="content-top">
                             <div class="item">
-                                <p><?php wp_list_bookmarks('categorize=0&category=9&title_li=&before=&after='); ?></p>                                
+                                <?php wp_list_bookmarks('categorize=0&category=9&title_li=&before=<p>&after=</p>'); ?>                              
                             </div>
                             <div class="item">
                                 <p><?php wp_list_bookmarks('categorize=0&category=10&title_li=&before=&after='); ?></p>   
